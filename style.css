@@ -1,0 +1,59 @@
+@media only screen and (max-width: 400px) {
+  header.startup h1 {
+    font-size: 4rem;
+    margin-bottom: 50px;
+  }
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Butterfly Kids',
+  cursive;
+}
+
+
+.faded {
+  color: rgb(233, 8, 139);
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("designecologist-560022-unsplash.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+
+
+header.startup h1 {
+  font-size: 4rem;
+  margin-bottom: 500px;
+}
+
+.btn {
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-xl {
+  
+}
+
+.btn-primary {
+  background-color: rgb(233, 8, 139);
+  border-color: rgb(233, 8, 139);
+}
+
+.btn-primary:hover {
+  background-color: rgb(233, 8, 139);
+  border-color: rgb(233, 8, 139);
+  border-width: 5px;
+  cursor: pointer;
+}
+
